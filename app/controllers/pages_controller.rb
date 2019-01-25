@@ -51,7 +51,7 @@ class PagesController < ApplicationController
   private
 
     def page_params
-      params.require(:page).permit(:name, :position, :visible)
+      params.require(:page).permit(:name, :position, :visible, :permalink, :subject_id)
     end
 
     def set_page

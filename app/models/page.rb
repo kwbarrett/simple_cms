@@ -4,6 +4,10 @@ class Page < ApplicationRecord
   has_many :sections
   has_and_belongs_to_many :admin_users
 
+  scope :visible, -> { where( :visible => true ) }
+  scope :invisible, lambda { where( :visible => false ) }
   scope :sorted, -> { order("created_at ASC") }
+  scope :newest, lambda { order("created_at DESC") }
+  scope :search, lambda { |query| where(["name LIKE ?", "%#{query}%"])}
 
 end
