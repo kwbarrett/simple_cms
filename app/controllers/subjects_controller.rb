@@ -1,5 +1,7 @@
 class SubjectsController < ApplicationController
 
+  layout 'admin'
+
   before_action :set_subject, only: [:show, :edit, :update, :delete, :destroy]
 
 

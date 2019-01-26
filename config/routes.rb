@@ -24,6 +24,7 @@ Rails.application.routes.draw do
   get 'demo/hello'
   get 'demo/other_hello'
   get 'demo/lynda'
+  get 'demo/escape_output'
   # match "demo/index", :to => "demo#index", :via => :get
 
   # default routing (will be deprecated in rails 5.2) DO NOT USE

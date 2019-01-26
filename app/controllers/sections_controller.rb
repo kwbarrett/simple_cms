@@ -1,5 +1,7 @@
 class SectionsController < ApplicationController
 
+  layout 'admin'
+
   before_action :set_section, only: [:show, :edit, :update, :delete, :destroy]
 
   def index

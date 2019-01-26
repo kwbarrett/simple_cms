@@ -1,5 +1,7 @@
 class PagesController < ApplicationController
 
+  layout 'admin'
+
   before_action :set_page, only: [:show, :edit, :update, :delete, :destroy]
 
   def index
