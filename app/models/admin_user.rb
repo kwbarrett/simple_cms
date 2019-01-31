@@ -9,6 +9,8 @@ class AdminUser < ApplicationRecord
   EMAIL_REGEX = /\A[\w+\-.]+@[a-z\d\-]+(\.[a-z\d\-]+)*\.[a-z]+\z/i
   FORBIDDEN_USERNAMES = ['littlebopeep', 'humptydumpty', 'marymary']
 
+  scope :sorted, -> { order("last_name, first_name") }
+
   # Long form validations
   #
   # validates_presence_of :first_name
@@ -30,6 +32,10 @@ class AdminUser < ApplicationRecord
   validates :email, :presence => true, :length => { :maximum => 100 }, :format => EMAIL_REGEX, :confirmation => true
   validate :username_is_allowed
   validate :no_new_users_on_tuesday, :on => :create
+
+  def name
+    "#{first_name} #{last_name}"
+  end
 
   private
 

@@ -2,13 +2,21 @@ Rails.application.routes.draw do
 
   root 'demo#index'
 
+  get 'admin_users/index'
+  get 'admin_users/new'
+  get 'admin_users/edit'
+  get 'admin_users/delete'
   get 'admin', :to => 'access#menu'
   get 'access/menu'
   get 'access/login'
   post 'access/attempt_login'
   get 'access/logout'
 
-
+  resources :admin_users do
+    member do
+      get :delete
+    end
+  end
 
   resources :subjects do
     member do

@@ -2,6 +2,7 @@ class PagesController < ApplicationController
 
   layout 'admin'
 
+  before_action(:confirm_logged_in)
   before_action :set_page, only: [:show, :edit, :update, :delete, :destroy]
   before_action :find_subjects, only: [:new, :edit, :create, :update]
   before_action :set_page_count, only: [:edit, :update, :new, :create]
