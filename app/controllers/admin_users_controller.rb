@@ -2,7 +2,7 @@ class AdminUsersController < ApplicationController
 
   layout 'admin'
 
-  before_action(:confirm_logged_in)
+  before_action :confirm_logged_in
 
   def index
     @admin_users = AdminUser.sorted
@@ -15,13 +15,12 @@ class AdminUsersController < ApplicationController
   def create
     @admin_user = AdminUser.new(admin_user_params)
     if @admin_user.save
-      flash[:notice] = "Admin User created!"
+      flash[:notice] = 'Admin user created successfully.'
       redirect_to(admin_users_path)
     else
-      render 'new'
+      render('new')
     end
   end
-
 
   def edit
     @admin_user = AdminUser.find(params[:id])
@@ -30,10 +29,10 @@ class AdminUsersController < ApplicationController
   def update
     @admin_user = AdminUser.find(params[:id])
     if @admin_user.update_attributes(admin_user_params)
-      flash[:notice] = "#{@admin_user.name} updated!"
+      flash[:notice] = 'Admin user updated successfully.'
       redirect_to(admin_users_path)
     else
-      render 'edit'
+      render('edit')
     end
   end
 
@@ -44,14 +43,21 @@ class AdminUsersController < ApplicationController
   def destroy
     @admin_user = AdminUser.find(params[:id])
     @admin_user.destroy
-    flash[:notice] = "Admin User destroyed!"
+    flash[:notice] = "Admin user destroyed successfully."
     redirect_to(admin_users_path)
   end
 
   private
 
-    def admin_user_params
-      params.require(:admin_user).permit(:first_name, :last_name, :email, :username, :password)
-    end
+  def admin_user_params
+    # Permit :password, but NOT :password_digest
+    params.require(:admin_user).permit(
+      :first_name,
+      :last_name,
+      :email,
+      :username,
+      :password
+    )
+  end
 
 end

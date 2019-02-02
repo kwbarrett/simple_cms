@@ -6,11 +6,8 @@
     <td><%= f.text_field(:name) %></td>
   </tr>
   <tr>
-    <th>Page ID</th>
-    <td>
-      <%#= f.text_field(:page_id) %>
-      <%= f.select(:page_id, @pages.map{ |p| [p.name, p.id]}) %>
-    </td>
+    <th>Page</th>
+    <td><%= f.object.page.name %></td>
   </tr>
   <tr>
     <th>Position</th>
@@ -21,7 +18,7 @@
     <td><%= f.check_box(:visible) %></td>
   </tr>
   <tr>
-    <th>Content Type</th>
+    <th>Content type</th>
     <td>
       <%= f.radio_button(:content_type, 'text') %> Text
       <%= f.radio_button(:content_type, 'HTML') %> HTML

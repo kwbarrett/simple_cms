@@ -13,14 +13,14 @@ class PublicController < ApplicationController
     if @page.nil?
       redirect_to(root_path)
     else
-
+      # display the page content using show.html.erb
     end
   end
 
-
   private
 
-    def setup_navigation
-      @subjects = Subject.visible.sorted
-    end
+  def setup_navigation
+    @subjects = Subject.visible.sorted
+  end
+
 end

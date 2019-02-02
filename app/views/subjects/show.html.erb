@@ -1,9 +1,10 @@
-<% @page_title = "#{@subject.name}" %>
+<% @page_title = "Show Subject" %>
 
-<%= link_to "<< Back to List", subjects_path, :class => "back-link" %>
+<%= link_to("<< Back to List", subjects_path, :class => 'back-link') %>
 
 <div class="subjects show">
-  <h2>Show Subjects</h2>
+  <h2>Show Subject</h2>
+
   <table summary="Subject detail view">
     <tr>
       <th>Name</th>
@@ -26,4 +27,5 @@
       <td><%= @subject.updated_at %></td>
     </tr>
   </table>
+
 </div>

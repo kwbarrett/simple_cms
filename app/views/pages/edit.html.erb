@@ -1,14 +1,13 @@
-<% @page_title = "Edit #{@page.name}" %>
+<% @page_title = "Edit Page" %>
 
-<%= link_to  '<< Back to List', pages_path, :class => 'back-link' %>
+<%= link_to("<< Back to List", pages_path(:subject_id => @subject.id), :class => 'back-link') %>
 
 <div class="pages edit">
-  <h2>Edit Page</h2>
-  <!--  This is the long form of the form declaration but is not required -->
-  <%#= form_for(@subject, :url => subjects_path, :method => 'post' ) do |f| %>
-  <%= form_for(@page) do |f| %>
+  <h2>Update Page</h2>
 
-    <%= render(:partial => 'form', :locals => { :f => f }) %>
+  <%= form_for(@page, :url => page_path(@page, :subject_id => @subject.id)) do |f| %>
+
+    <%= render(:partial => 'form', :locals => {:f => f}) %>
 
     <div class="form-buttons">
       <%= f.submit("Update Page") %>
