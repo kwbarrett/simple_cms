@@ -2,45 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98494170-0c80-400d-b4c4-106fdfdff263" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/simple_cms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/simple_cms.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/admin_additions.css.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin_additions.css.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/access_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/access_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/admin_users_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/admin_users_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/demo_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/demo_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/pages_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/pages_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/public_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/public_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/sections_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/sections_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/subjects_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/subjects_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/admin_user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/admin_user.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/page.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/page.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/section.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/section.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/section_edit.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/section_edit.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/subject.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/subject.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/access/menu.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/access/menu.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/pages/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/pages/_form.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/pages/delete.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/pages/delete.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/pages/edit.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/pages/edit.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/pages/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/pages/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/pages/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/pages/new.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/pages/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/pages/show.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/public/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/public/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/public/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/public/show.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/sections/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/sections/_form.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/sections/delete.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/sections/delete.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/sections/edit.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/sections/edit.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/sections/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/sections/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/sections/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/sections/new.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/sections/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/sections/show.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/subjects/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/subjects/_form.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/subjects/delete.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/subjects/delete.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/subjects/edit.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/subjects/edit.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/subjects/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/subjects/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/subjects/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/subjects/new.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/subjects/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/subjects/show.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/admin_users/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/admin_users/index.html.erb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -88,19 +50,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/controllers/access_controller.rb">
+        <entry file="file://$PROJECT_DIR$/app/views/admin_users/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="25" column="87" selection-start-line="25" selection-start-column="87" selection-end-line="25" selection-end-column="87" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/access/menu.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+            <state relative-caret-position="30">
+              <caret line="2" column="64" selection-start-line="2" selection-start-column="64" selection-end-line="2" selection-end-column="64" />
             </state>
           </provider>
         </entry>
@@ -145,7 +98,6 @@
         <option value="$PROJECT_DIR$/app/views/admin_users/new.html.erb" />
         <option value="$PROJECT_DIR$/app/views/admin_users/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/views/admin_users/show.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/admin_users/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/admin_users/edit.html.erb" />
         <option value="$PROJECT_DIR$/app/views/admin_users/delete.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/admin_users_controller.rb" />
@@ -178,6 +130,7 @@
         <option value="$PROJECT_DIR$/app/controllers/sections_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/access/menu.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/access_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/admin_users/index.html.erb" />
       </list>
     </option>
   </component>
@@ -213,12 +166,6 @@
               <item name="simple_cms" type="b2602c69:ProjectViewProjectNode" />
               <item name="simple_cms" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="simple_cms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="simple_cms" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -227,6 +174,13 @@
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="access" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="simple_cms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="simple_cms" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="admin_users" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -379,18 +333,17 @@
       <workItem from="1548856313828" duration="1816000" />
       <workItem from="1548898320346" duration="6899000" />
       <workItem from="1548988668732" duration="18163000" />
-      <workItem from="1549124028700" duration="6007000" />
+      <workItem from="1549124028700" duration="7552000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98666000" />
+    <option name="totallyTimeSpent" value="100211000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="-109" width="1920" height="1057" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49936306" visible="true" weight="0.14323749" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49936306" visible="true" weight="0.14323749" />
       <window_info id="Structure" order="1" sideWeight="0.50063694" side_tool="true" weight="0.24973376" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -403,7 +356,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32930514" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49757674" visible="true" weight="0.2688822" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49757674" visible="true" weight="0.2688822" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5024233" side_tool="true" weight="0.21318373" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32930514" />
       <window_info anchor="bottom" id="Database Console" order="13" weight="0.32819074" />
@@ -454,13 +407,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/admin_users/show.html.erb" />
-    <entry file="file://$PROJECT_DIR$/app/views/admin_users/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="40" lean-forward="true" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/admin_users/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -734,6 +680,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/access_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="25" column="87" selection-start-line="25" selection-start-column="87" selection-end-line="25" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/access/menu.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -741,10 +694,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/access_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/admin_users/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="25" column="87" selection-start-line="25" selection-start-column="87" selection-end-line="25" selection-end-column="87" />
+        <state relative-caret-position="30">
+          <caret line="2" column="64" selection-start-line="2" selection-start-column="64" selection-end-line="2" selection-end-column="64" />
         </state>
       </provider>
     </entry>
